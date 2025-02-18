@@ -9,18 +9,17 @@ const items: MenuItem[] = [
   {
     key: '1',
     icon: <MailOutlined />,
-    label: 'Navigation One',
+    label: 'Account manangement',
     children: [
-      { key: '11', label: 'Option 1' },
-      { key: '12', label: 'Option 2' },
-      { key: '13', label: 'Option 3' },
-      { key: '14', label: 'Option 4' },
+      { key: '11', label: 'Account' },
+      { key: '12', label: 'Role' },
+      { key: '13', label: 'Permission 3' },
     ],
   },
   {
     key: '2',
     icon: <AppstoreOutlined />,
-    label: 'Navigation Two',
+    label: 'Booking management',
     children: [
       { key: '21', label: 'Option 1' },
       { key: '22', label: 'Option 2' },
@@ -47,10 +46,10 @@ const items: MenuItem[] = [
   {
     key: '3',
     icon: <SettingOutlined />,
-    label: 'Navigation Three',
+    label: 'Setting',
     children: [
-      { key: '31', label: 'Option 1' },
-      { key: '32', label: 'Option 2' },
+      { key: '31', label: 'Style' },
+      { key: '32', label: 'Locale' },
       { key: '33', label: 'Option 3' },
       { key: '34', label: 'Option 4' },
     ],
